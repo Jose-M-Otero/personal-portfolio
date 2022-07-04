@@ -179,8 +179,9 @@ section h1 {
   text-align: center;
 }
 .contact-form h2 {
-  font-size: 20px;
+  font-size: 60px;
   margin-bottom: 15px;
+  color: red;
 }
 .contact-form p {
   color: #062f66;
