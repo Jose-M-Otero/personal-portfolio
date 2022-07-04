@@ -26,7 +26,7 @@ body {
   height: 50px;
   margin-right: auto;
   margin-left: 20px;
-  margin-top: 10px;
+  margin-top: 5px;
   /*the margin top pushes the logo down by 10 pixels*/
   /* border-radius: 50%; */
 }
@@ -112,24 +112,24 @@ section h1 {
   box-shadow: 10px 10px 10px lightblue;
 }
 
-section #about {
+/* section #about {
   background: url("https://source.unsplash.com/VRxo0yY-gyM/1600x900") no-repeat
     center center/cover;
-}
+ } */
 /* Below code was recommended by the AskBCS LearningAssistant. Thanks */
 /* Code will change the color for each individual sections: home, about, portfolio, & contact */
 .about {
-  background-color: brown;
+  background-color: #00aeff;
 }
 
-section #service {
-  /* background: url("https://source.unsplash.com/K2tdx2mFDHc/1600x900") no-repeat
-    center center/cover; */
-}
+/* section #portfolio {
+  background: url("https://source.unsplash.com/K2tdx2mFDHc/1600x900") no-repeat
+    center center/cover;
+} */
 /* Below code was recommended by the AskBCS LearningAssistant. Thanks */
 /* Code will change the color for each individual sections: home, about, portfolio, & contact */
-.about {
-  background-color: brown;
+.portfolio {
+  background-color: #008cff;
 }
 .box {
   display: grid;
@@ -161,12 +161,75 @@ section #service {
   transform: scale(1.1);
 }
 
-section #contact {
+/* section #contact {
   background: url("https://source.unsplash.com/2aAHlfDOhJM/1600x900") no-repeat
     center center/cover;
+} */
+
+.contact {
+  background: #062f66;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  align-items: center;
+  grid-gap: 3rem;
+  text-align: center;
 }
-/* Below code was recommended by the AskBCS LearningAssistant. Thanks */
-/* Code will change the color for each individual sections: home, about, portfolio, & contact */
-.about {
-  background-color: brown;
+.contact-form h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.contact-form p {
+  color: #062f66;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 20px;
+  margin-bottom: 4.1rem;
+}
+.contact-form {
+  position: relative;
+}
+.contact-form form input,
+form textarea {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  outline: none;
+  background: lightgray;
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 10px;
+}
+.contact-form textarea {
+  resize: none;
+  height: 200px;
+}
+.contact-form form .send {
+  display: inline-block;
+  background: #062f66;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 30px;
+  border: 1px solid lightblue;
+  width: 200px;
+  transition: ease 0.35s;
+  text-transform: uppercase;
+}
+.contact-form form .send:hover {
+  transform: translateY(-8px);
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #062f66;
+  color: white;
+}
+.footer p {
+  font-size: 17px;
+  color: white;
+  letter-spacing: 1px;
+  text-align: center;
 }
