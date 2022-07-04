@@ -1,6 +1,4 @@
-# Code Refactor Starter Code
-
-# Horiseon
+# Professional Portfolio - My First One
 
 README.md template provided from: https://github.com/microsoft/vscode and https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide.
 
@@ -32,7 +30,7 @@ Provide instructions and examples for use. Include screenshots as needed.
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
-Click on [Horiseon](https://github.com/Jose-M-Otero/personal-portfolio.git) to see live website.
+Click on [Professional Portfolio](https://github.com/Jose-M-Otero/personal-portfolio.git) to see live website.
 
 <p align="center">
   <img alt="VS Code in action" src="https://github.com/Jose-M-Otero/personal-portfolio/blob/master/images/portfolio.png">
