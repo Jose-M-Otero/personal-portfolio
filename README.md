@@ -30,10 +30,10 @@ Provide instructions and examples for use. Include screenshots as needed.
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
-Click on [Professional Portfolio](https://github.com/Jose-M-Otero/personal-portfolio.git) to see live website.
+Click on [Professional Portfolio](https://jose-m-otero.github.io/personal-portfolio/) to see live website.
 
 <p align="center">
-  <img alt="VS Code in action" src="https://github.com/Jose-M-Otero/personal-portfolio/blob/master/images/portfolio.png">
+  <img alt="VS Code in action" src="https://github.com/Jose-M-Otero/personal-portfolio/blob/master/images/home-page.png">
 </p>
 
 ## Credits
