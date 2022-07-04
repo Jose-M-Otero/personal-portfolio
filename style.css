@@ -134,14 +134,15 @@ section #service {
 .box {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(370px, auto));
-  gap: 10px;
+  cursor: pointer;
+  border: 1px solid lightblue;
+  border-radius: 5px;
 }
 .box img {
   max-width: 70%;
   width: 400px;
   height: auto;
   border-radius: 10px;
-
   margin-bottom: 10px;
   transition: all 0.3s;
 }
