@@ -26,7 +26,7 @@ body {
   height: 50px;
   margin-right: auto;
   margin-left: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
   /*the margin top pushes the logo down by 10 pixels*/
   /* border-radius: 50%; */
 }
@@ -117,13 +117,27 @@ section #about {
     center center/cover;
   background-color: red;
 }
+/* Below code was recommended by the AskBCS LearningAssistant. Thanks */
+/* Code will change the color for each individual sections: home, about, portfolio, & contact */
+.about {
+  background-color: brown;
+}
 
 section #service {
   background: url("https://source.unsplash.com/K2tdx2mFDHc/1600x900") no-repeat
     center center/cover;
 }
-
+/* Below code was recommended by the AskBCS LearningAssistant. Thanks */
+/* Code will change the color for each individual sections: home, about, portfolio, & contact */
+.about {
+  background-color: brown;
+}
 section #contact {
   background: url("https://source.unsplash.com/2aAHlfDOhJM/1600x900") no-repeat
     center center/cover;
+}
+/* Below code was recommended by the AskBCS LearningAssistant. Thanks */
+/* Code will change the color for each individual sections: home, about, portfolio, & contact */
+.about {
+  background-color: brown;
 }
