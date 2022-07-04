@@ -130,22 +130,26 @@ section h1 {
 /* Code will change the color for each individual sections: home, about, portfolio, & contact */
 .portfolio {
   background-color: #008cff;
-}
-.box {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(370px, auto));
+  grid-template-columns: auto;
+}
+
+.box {
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(370px, auto)); */
   cursor: pointer;
   border: 1px solid lightblue;
   border-radius: 5px;
 }
 .box img {
-  max-width: 70%;
-  width: 400px;
+  max-width: 100%;
+  width: 160px;
   height: auto;
   border-radius: 10px;
   margin-bottom: 10px;
   transition: all 0.3s;
 }
+
 .box p {
   color: white;
   font-size: 15px;
